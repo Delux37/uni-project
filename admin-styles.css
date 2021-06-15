@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.admin__container{
+    width: 80%;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+.admin__participant--card{
+    display: flex;
+    justify-content: space-between;
+}
+.admin__participant--card p {
+    width: 20%;
+    /* border: 2px solid red; */
+}
+.admin__participant--card > p:not(:last-child){
+    border-right: 2px solid black;
+}
+.template {
+    border-bottom: 2px solid black;
+}
+.admin__header{
+    background: linear-gradient(to bottom, white, #124E7C);
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.admin__header h1{
+    font-size: 24px;
+}
+
+.admin__header a {
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 5px;
+}

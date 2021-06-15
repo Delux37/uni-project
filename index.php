@@ -22,7 +22,8 @@
         <li><a href="#tours">Tours</a></li>
         <li><a href="#aboutUs">About Us</a></li>
         <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="contact/contact.php">Contact</a></li>
+        <li><a href="login/login.php">Log in</a></li>
     </ul>
     <div class="burger">
         <div class="line1"></div>
